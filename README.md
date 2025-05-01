@@ -24,18 +24,20 @@ AI-Crowd-Monitoring/ │ ├── main.py # Main application script ├── y
    
    cd AI-Crowd-Monitoring
 2. Create and activate a virtual environment
+   
     python -m venv venv
    
     venv\Scripts\activate   # On Windows
     # or
     source venv/bin/activate  # On macOS/Linux
-4. Install Dependencies
+3. Install Dependencies
    pip install -r requirements.txt
 
 ## Notes
+1. Ensure your webcam is connected and working if using live input.
+2. You can modify detection confidence thresholds and source options in main.py
+3. Heatmap is saved in your project directory
 
-Ensure your webcam is connected and working if using live input.
-You can modify detection confidence thresholds and source options in main.py
 ## Sample Output
 
 ![Screenshot of AI Crowd Monitoring in action](Screenshot.png)
