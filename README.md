@@ -21,13 +21,15 @@ AI-Crowd-Monitoring/ │ ├── main.py # Main application script ├── y
 
 1. Clone the repository
    git clone https://github.com/JerritJaison/Realtime_AI-Crowd-Monitoring_and_weight_detection_using_YOLO.git
+   
    cd AI-Crowd-Monitoring
 2. Create and activate a virtual environment
     python -m venv venv
+   
     venv\Scripts\activate   # On Windows
     # or
     source venv/bin/activate  # On macOS/Linux
-3. Install Dependencies
+4. Install Dependencies
    pip install -r requirements.txt
 
 ## Notes
