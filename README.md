@@ -36,4 +36,4 @@ Ensure your webcam is connected and working if using live input.
 You can modify detection confidence thresholds and source options in main.py
 ## Sample Output
 
-![Screenshot of AI Crowd Monitoring in action](screenshot.png)
+![Screenshot of AI Crowd Monitoring in action](Screenshot.png)
